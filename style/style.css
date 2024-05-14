@@ -1,0 +1,11 @@
+p {
+  background-color: #0cc;
+}
+
+.static {
+  position: static; /*Valeur par défaut*/
+}
+
+.gauche {
+  left: 100px; /*La propriété ne s'applique pas sur un élément static*/
+}
